@@ -1,0 +1,21 @@
+.caption {
+    text-transform: uppercase;
+}
+
+.menu-thumb img {
+    max-width: 600px;
+    min-width: 600px;
+    max-height: 400px;
+    min-height: 400px;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+}
+
+.jumbotron {
+    object-fit:contain ;
+    background-image: url("images/slider-image2.jpg");
+    min-height: 150px;
+ 
+  }
+

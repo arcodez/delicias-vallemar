@@ -1,29 +1,140 @@
-import React from 'react'
-import Layout from '../src/components/Layout/Layout'
+import React from "react";
 
-function Content() {
-    return (
-        <Layout>
-    
-    {/* <!-- HOME -->  JUmbo Tron Slider*/}
-{/*     <section id="home" className="slider" data-stellar-background-ratio="0.5">
+function App() {
+  return (
+    <>
+
+  <head>
+    <title>Delicias Vallemar</title>
+    {/* <!-- 
+
+Eatery Cafe Template 
+
+http://www.templatemo.com/tm-515-eatery
+
+--> */}
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="css/owl.carousel.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+
+    {/* <!-- MAIN CSS --> */}
+    <link rel="stylesheet" href="css/templatemo-style.css" />
+  </head>
+  <body>
+   {/*  <!-- PRE LOADER --> */}
+    <section className="preloader">
+      <div className="spinner">
+        <span className="spinner-rotate"></span>
+      </div>
+    </section>
+
+    {/* <!-- MENU --> */}
+    <section className="navbar custom-navbar navbar-fixed-top" role="navigation">
+      <div className="container">
+        <div className="navbar-header">
+          <button
+            className="navbar-toggle"
+            data-toggle="collapse"
+            data-target=".navbar-collapse"
+          >
+            <span className="icon icon-bar"></span>
+            <span className="icon icon-bar"></span>
+            <span className="icon icon-bar"></span>
+          </button>
+
+          {/* <!-- lOGO TEXT HERE --> */}
+          <a href="index.html" className="navbar-brand">Delicias <span>.</span> Vallemar</a>
+          
+        </div>
+
+        {/* <!-- MENU LINKS --> */}
+        <div className="collapse navbar-collapse">
+          <ul className="nav navbar-nav navbar-nav-first">
+            <li><a href="#home" className="smoothScroll">Home</a></li>
+            <li><a href="#about" className="smoothScroll">About</a></li>
+            <li><a href="#team" className="smoothScroll">Productos</a></li>
+            <li><a href="#menu" className="smoothScroll">Mas Vendidos</a></li>
+            <li><a href="#contact" className="smoothScroll">Contact</a></li>
+          </ul>
+
+          <ul className="nav navbar-nav navbar-right">
+            <li>
+              <a href="#"
+                >Llame ahora! <i className="fa fa-phone"></i> 0414 093 7325
+                </a>
+            </li>
+            <a href="#footer" className="section-btn">Reserve a table</a>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    {/* <!-- HOME --> */}
+    <section id="home" className="slider" data-stellar-background-ratio="0.5">
       <div className="row">
         <div className="owl-carousel owl-theme">
           <div className="item item-first">
             <div className="caption">
               <div className="container">
-                <div className="col-sm-12">
+                <div className="col-md-8 col-sm-12">
+                  <h3>Eatery Cafe &amp; Restaurant</h3>
+                  <h1>Legumbres y Granos Todos al Alcance de tu mano</h1>
+                  <a
+                    href="#team"
+                    className="section-btn btn btn-default smoothScroll"
+                    >Meet our chef</a>
+                </div>
+              </div>
+            </div>
+          </div>
 
+          <div className="item item-second">
+            <div className="caption">
+              <div className="container">
+                <div className="col-md-8 col-sm-12">
+                  <h3>Your Perfect Breakfast</h3>
+                  <h1>Lo mejor en relación calidad\precio</h1>
+                  <a
+                    href="#menu"
+                    className="section-btn btn btn-default smoothScroll"
+                    >Discover menu</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="item item-third">
+            <div className="caption">
+              <div className="container">
+                <div className="col-md-8 col-sm-12">
+                  <h3>Aqui y Ahora</h3>
+                  <h1>Todo lo que quieras te lo tenemos</h1>
+                  <a
+                    href="#contact"
+                    className="section-btn btn btn-default smoothScroll"
+                    >Reservation</a>
                 </div>
               </div>
             </div>
           </div>
         </div>
-
       </div>
-    </section> */}
+    </section>
 
-   {/* <!-- ABOUT --> */}
+    {/* <!-- ABOUT --> */}
     <section id="about" data-stellar-background-ratio="0.5">
       <div className="container">
         <div className="row">
@@ -323,7 +434,6 @@ function Content() {
     </section>
 
     {/* <!-- TESTIMONIAL --> */}
-    {/* 
     <section id="testimonial" data-stellar-background-ratio="0.5">
       <div className="overlay"></div>
       <div className="container">
@@ -374,7 +484,6 @@ function Content() {
         </div>
       </div>
     </section>
- */}
 
   {/*   <!-- CONTACT --> */}
     <section id="contact" data-stellar-background-ratio="0.5">
@@ -471,8 +580,97 @@ function Content() {
       </div>
     </section>
 
-        </Layout>
-    )
+   {/*  <!-- FOOTER --> */}
+    <footer id="footer" data-stellar-background-ratio="0.5">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-3 col-sm-8">
+            <div className="footer-info">
+              <div className="section-title">
+                <h2 className="wow fadeInUp" data-wow-delay="0.2s">Encuentranos</h2>
+              </div>
+              <address className="wow fadeInUp" data-wow-delay="0.4s">
+                <p>
+                  El Valle del Espiritu Santo<br />
+                  Frente a la mata de tamarindo<br />Las Piedras del Valle
+                </p>
+              </address>
+            </div>
+          </div>
+
+          <div className="col-md-3 col-sm-8">
+            <div className="footer-info">
+              <div className="section-title">
+                <h2 className="wow fadeInUp" data-wow-delay="0.2s">Reservation</h2>
+              </div>
+              <address className="wow fadeInUp" data-wow-delay="0.4s">
+                <p>090-080-0650 | 090-070-0430</p>
+                <p><a href="mailto:info@company.com">info@company.com</a></p>
+                <p>LINE: eatery247</p>
+              </address>
+            </div>
+          </div>
+
+          <div className="col-md-4 col-sm-8">
+            <div className="footer-info footer-open-hour">
+              <div className="section-title">
+                <h2 className="wow fadeInUp" data-wow-delay="0.2s">
+                  Siempre a la orden!
+                </h2>
+              </div>
+              <div className="wow fadeInUp" data-wow-delay="0.4s">
+                <div>
+                  <strong>Lunes - Viernes</strong>
+                  <p>7:00 AM - 7:00 PM</p>
+                </div>
+                <div>
+                  <strong>Sabado - Domingo</strong>
+                  <p>7:00 AM - 6:30 PM</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-md-2 col-sm-4">
+            <ul className="wow fadeInUp social-icon" data-wow-delay="0.4s">
+              <li>
+                <a
+                  href="#"
+                  className="fa fa-facebook-square"
+                  attr="facebook icon"
+                ></a>
+              </li>
+              <li><a href="#" className="fa fa-twitter"></a></li>
+              <li><a href="#" className="fa fa-instagram"></a></li>
+              <li><a href="#" className="fa fa-google"></a></li>
+            </ul>
+
+            <div className="wow fadeInUp copyright-text" data-wow-delay="0.8s">
+              <p>
+                <br />Copyright &copy; 2020 <br />Delicias Vallemar
+
+                <br /><br />Power by:
+                <a rel="nofollow" href="" target="_parent">Abel Rodriguez</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+   {/*  <!-- SCRIPTS --> */}
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+
+    </>
+    );
 }
 
-export default Content
+export default App;
