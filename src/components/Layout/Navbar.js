@@ -29,7 +29,7 @@ function Navbar() {
                             <span className="icon icon-bar"></span>
                         </button>
 
-                        {/* <!-- lOGO TEXT HERE --> */}
+                        {/* <!-- Titulo Logo --> */}
                         <Link href="/" className="navbar-brand">Delicias <span>.</span> Vallemar</Link>
 
                     </div>
