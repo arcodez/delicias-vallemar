@@ -1,6 +1,7 @@
 import React from 'react'
 import Carousel from './Carousel'
 import Links from './Links'
+import Link from 'next/link'
 
 function Navbar() {
     return (
@@ -29,7 +30,7 @@ function Navbar() {
                         </button>
 
                         {/* <!-- lOGO TEXT HERE --> */}
-                        <a href="index.html" className="navbar-brand">Delicias <span>.</span> Vallemar</a>
+                        <Link href="index" className="navbar-brand">Delicias <span>.</span> Vallemar</Link>
 
                     </div>
 
