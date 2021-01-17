@@ -30,7 +30,7 @@ function Navbar() {
                         </button>
 
                         {/* <!-- lOGO TEXT HERE --> */}
-                        <Link href="index" className="navbar-brand">Delicias <span>.</span> Vallemar</Link>
+                        <Link href="/" className="navbar-brand">Delicias <span>.</span> Vallemar</Link>
 
                     </div>
 
