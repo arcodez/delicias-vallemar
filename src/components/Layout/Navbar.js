@@ -1,7 +1,6 @@
 import React from 'react'
 import Carousel from './Carousel'
 import Links from './Links'
-import Link from 'next/link'
 
 function Navbar() {
     return (
@@ -30,7 +29,7 @@ function Navbar() {
                         </button>
 
                         {/* <!-- Titulo Logo --> */}
-                        <Link href="/" className="navbar-brand">Delicias <span>.</span> Vallemar</Link>
+                        <a href="/" className="navbar-brand">Delicias <span>.</span> Vallemar</a>
 
                     </div>
 
