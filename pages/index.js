@@ -11,6 +11,7 @@ function Content() {
       <Head>
         <title>Delicias Vallemar</title>
         <meta name="title" content="Delicias Vallemar" />
+        <meta name="google-site-verification" content="sqyMM9vfTwNQJLR2RbyP-Zyz_HzKXuFYHIt1uuztbnU" />
         <meta name="google-site-verification" content="vB41t2hipbQ3pMNpzBt_xp2O_HafWKtKqeuDW0hNVn8" />
         <meta
           name="description"
