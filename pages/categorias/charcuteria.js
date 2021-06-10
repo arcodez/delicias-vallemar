@@ -13,7 +13,7 @@ function charcuteria() {
       <Menu
         name1="Carne" price1=" " desc1=" "
         img1="https://ichef.bbci.co.uk/news/640/amz/worldservice/live/assets/images/2015/03/20/150320172053_sp_jamon_serrano_624x351_thinkstock.jpg"
-        name2="Jamon" price2="Ni puta Idea" desc2="Rebanado"
+        name2="Jamon" price2="No tiene precio" desc2="Rebanado"
         img2="https://cdn2.cocinadelirante.com/sites/default/files/styles/gallerie/public/images/2017/06/jamon.jpg"
         name3="Queso" price3="5900bsf" desc3="Duro \ Semi-salado "
         img3="https://autosysaludcom.files.wordpress.com/2019/07/queso-1-1.jpg?quality=80&strip=all"
